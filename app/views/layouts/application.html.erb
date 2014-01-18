@@ -10,24 +10,24 @@
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="navbar-inner">
       <ul class="navbar-right"><li><a href="#" style="">Quick Contact</a></li></ul>
-      </div>
+    </div>
 
-      <div class="container menu-tabs">
+    <div class="container menu-tabs">
+      <ul class="nav nav-pills">
+        <li><a href="#">Offering</a></li>
+        <li><a href="#">Resource</a></li>  
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </div>  
 
-        <ul class="nav nav-pills">
-          <li><a href="#">Offering</a></li>
-          <li><a href="#">Resource</a></li>  
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </div>
-    </div>  
+  <div class="container">
+    <%= yield %>
   </div>
-<%= yield %>
-
-<div class="container" style="margin-top: 20px; margin-bottom: 20px;">
-          <%=yield :footer%>
-        </div>
+  <div class="container" style="margin-top: 20px; margin-bottom: 20px;">
+    <%=yield :footer%>
+  </div>
 </body>
 </html>
 
