@@ -3,7 +3,7 @@
   background-image: url{menu-arrow.png};
 }
 
-.nav-pills >li >a{
+.menu-tabs .nav-pills >li >a{
   font-family: Arial;
   background-image: url('menu-arrow.png');
   background-repeat: no-repeat;
