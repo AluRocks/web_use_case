@@ -7,6 +7,7 @@ development:
   adapter: postgresql
   encoding: unicode
   database: promt_cloud_dev
+  port: 5432
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -14,6 +15,7 @@ development:
 production:
   adapter: postgresql
   encoding: unicode
-  database: promt_cloud_test
+  database: promt_cloud_prod
+  port: 5432
 
 
