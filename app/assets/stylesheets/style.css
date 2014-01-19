@@ -1,6 +1,6 @@
 .menu-tabs {
-  padding: 45px 0 0 200px;
-  background-image: url{menu-arrow.png};
+  padding: 45px 0 0 90px;
+  font-size:14px;
 }
 
 .menu-tabs .nav-pills >li >a{
@@ -99,7 +99,7 @@ font-size: 12px;
   padding: 0px;
   
 }
-.sub-menu {padding-left:262px;height:30px;padding-top:5px;font-size: 12px;}
+.sub-menu {padding-left:160px;height:30px;padding-top:5px;font-size: 12px;}
 .sub-menu a {color:#ffffff;}
 .sub-menu-link {float:left; padding-right:10px;}
 .nav .sub-menu-link >li > a:hover {background-color:#1aa1d1;}
