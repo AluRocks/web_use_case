@@ -8,9 +8,14 @@
 </head>
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
+    <div class="navbar-inner" >
       <p style="float:left;"><%= image_tag "logo.png" %></p>
-      <ul class="navbar-right"><li><a href="#" style="">Quick Contact</a></li></ul>
+      <ul>
+        <li class="quick-contact"><a href="#">Quick Contact</a></li>
+        <li class="contact-no"><%= image_tag "phone-number-icon.png", :width => "20"%>+91-80 4121 6038</li>
+        <li class="view-contact"><a href="#"><%= image_tag "view-sample-data-back.png" %></a></li>
+        <li class="view-contact-text"><a href="#">View Sample Data</a></li>
+      </ul>
     </div>
 
     <div class="container menu-tabs">
