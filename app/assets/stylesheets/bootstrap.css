@@ -2123,8 +2123,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #ffffff;
-  background-color: #428bca;
+  color: #000000;
+  background-color: #0CF;
+  font-weight: bold;
+  font-size:15px;
 }
 .nav-stacked > li {
   float: none;
