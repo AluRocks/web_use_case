@@ -9,6 +9,7 @@ gem 'pg'
 gem 'heroku'
 
 group :production do 
+  gem 'thin'
   gem 'rails_12factor'
 end
 
@@ -40,4 +41,3 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-gem 'debugger'
